@@ -1,0 +1,89 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 12,
+            "value": "## Then Verify user should sign up"
+          }
+        ],
+        "line": 14,
+        "name": "verify userss can signinnnn",
+        "description": "",
+        "id": "sign-up-in-feature;verify-userss-can-signinnnn",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1154678300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Opennnn theeee \"\u003cURL\u003e\" Application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 16
+                }
+              ],
+              "location": "Demooblaze_Signup.opennnn_theeee_Application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 52914400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click Log--in",
+            "match": {
+              "location": "Demooblaze_Signup.click_Log_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 321872000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Enter UssssserNamepassword",
+            "match": {
+              "location": "Demooblaze_Signup.enter_UssssserNamepassword()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3046409700,
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:110)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1577)\r\n\tat org.testng.Assert.assertTrue(Assert.java:56)\r\n\tat org.testng.Assert.assertTrue(Assert.java:66)\r\n\tat Demooblaze_Actiooon.Profile_Page_action.Pro_file_page(Profile_Page_action.java:16)\r\n\tat Demooblaze_Steppdeff.Demooblaze_Signup.verify_user_should_logggin(Demooblaze_Signup.java:61)\r\n\tat ✽.Then Verify user should logggin(Demooblaze_signup.feature:19)\r\n",
+              "status": "failed"
+            },
+            "line": 19,
+            "name": "Verify user should logggin",
+            "match": {
+              "location": "Demooblaze_Signup.verify_user_should_logggin()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@Disha2"
+          }
+        ]
+      }
+    ],
+    "name": "Sign up in feature",
+    "description": "",
+    "id": "sign-up-in-feature",
+    "keyword": "Feature",
+    "uri": "Demooblaze_signup.feature"
+  }
+]
